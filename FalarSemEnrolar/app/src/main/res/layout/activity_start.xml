@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_start"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.falarsemenrolar.falarsemenrolar.StartActivity"
+    android:weightSum="1"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    android:background="?android:attr/textColorHint">
+
+    <ImageView
+    android:layout_width="468dp"
+    android:layout_height="306dp"
+    android:src="@drawable/fistimg"
+        android:id="@+id/imageView"
+        android:paddingTop="20dp"
+        android:layout_gravity="center"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_weight="0.03" />
+
+    <Button
+        android:textSize="40dp"
+        android:layout_width="186dp"
+        android:layout_height="71dp"
+        android:id="@+id/button3"
+        android:textStyle="normal|bold"
+        android:background="@drawable/start"
+        android:layout_below="@+id/imageView"
+        android:onClick="startMenuView"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textAllCaps="false"
+        android:layout_weight="0.14" />
+
+</LinearLayout>

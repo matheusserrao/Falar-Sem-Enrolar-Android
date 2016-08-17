@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    tools:context="br.com.falarsemenrolar.falarsemenrolar.activitiesLearn.ObjectsActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/balaoobject"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            style="@style/botaoPlayAudio"
+            android:layout_marginTop="15dp"
+            android:drawableLeft="@drawable/bolsa"
+            android:text="Bagpack"
+            android:layout_width="match_parent"
+            android:textSize="18dp"
+            android:onClick="playBackPack" />
+
+
+        <Button
+            style="@style/botaoPlayAudio"
+            android:layout_marginTop="15dp"
+            android:onClick="playPencil"
+            android:drawableLeft="@drawable/pencil"
+            android:text="Pencil"
+            android:layout_width="match_parent"
+            android:textSize="18dp"
+            android:textColor="@android:color/black"/>
+
+        <Button
+            style="@style/botaoPlayAudio"
+            android:layout_marginTop="15dp"
+            android:drawableLeft="@drawable/caneta"
+            android:text="Pen"
+            android:onClick="playPen"
+            android:layout_width="match_parent"
+            android:textSize="18dp"/>
+
+        <Button
+            style="@style/botaoPlayAudio"
+            android:layout_marginTop="15dp"
+            android:drawableLeft="@drawable/cadeira"
+            android:text="Chair"
+            android:onClick="playChar"
+            android:layout_width="match_parent"
+            android:textSize="18dp"/>
+
+
+        <Button
+            style="@style/botaoPlayAudio"
+            android:layout_marginTop="15dp"
+            android:drawableLeft="@drawable/livro"
+            android:text="Book"
+            android:onClick="playBook"
+            android:layout_width="match_parent"
+            android:textSize="18dp" />
+
+        <Button
+            style="@style/botaoPlayAudio"
+            android:layout_marginTop="15dp"
+            android:drawableLeft="@drawable/borracha"
+            android:text="Eraser"
+            android:onClick="playEraser"
+            android:layout_width="match_parent"
+            android:textSize="18dp" />
+
+        <Button
+            style="@style/botaoPlayAudio"
+            android:layout_marginTop="15dp"
+            android:drawableLeft="@drawable/regua"
+            android:text="Ruler"
+            android:onClick="playerRuler"
+            android:layout_width="match_parent"
+            android:textSize="18dp"/>
+
+        <Button
+            style="@style/botaoPlayAudio"
+            android:layout_marginTop="15dp"
+            android:drawableLeft="@drawable/computador"
+            android:text="Computer"
+            android:onClick="playComputer"
+            android:layout_width="match_parent"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+</ScrollView>

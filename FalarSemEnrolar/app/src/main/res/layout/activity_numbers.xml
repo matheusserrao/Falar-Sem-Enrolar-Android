@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    tools:context="br.com.falarsemenrolar.falarsemenrolar.activitiesLearn.NumbersActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/numbers"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <TextView
+        style="@style/textoExplicacao"
+        android:text="Aprender os números de 1 a 100 em inglês pode ser fácil se você ficar atento a algumas regrinhas básicas. Para tornar o aprendizado ainda mais simples, é preciso identificar os padrões."
+        />
+
+    <TextView
+        style="@style/textoExplicacao"
+        android:layout_marginTop="20dp"
+        android:text="Vejamos, primeiro, os números de 1 a 10, que são os únicos que não seguem um padrão."
+        />
+
+    <TableLayout
+        style="@style/tableLayout">
+
+        <TableRow
+            style="@style/tableLayout">
+
+            <TextView
+                style="@style/conteudoTables"
+                android:text="One"
+                android:textColor="@android:color/holo_red_dark"
+               />
+
+            <TextView
+                style="@style/conteudoTables"
+                android:layout_marginLeft="5dp"
+                android:text="1"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                style="@style/conteudoTables"
+                android:text="Two"
+                android:textColor="@android:color/holo_blue_dark"
+               />
+
+            <TextView
+                style="@style/conteudoTables"
+                android:layout_marginLeft="5dp"
+                android:text="2"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                style="@style/conteudoTables"
+                android:text="Three"
+                android:textColor="@android:color/holo_orange_dark"
+                />
+
+            <TextView
+                style="@style/conteudoTables"
+                android:layout_marginLeft="5dp"
+                android:text="3"
+             />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                style="@style/conteudoTables"
+                android:text="Four"
+                android:textColor="@android:color/holo_green_dark"/>
+
+            <TextView
+                style="@style/conteudoTables"
+                android:layout_marginLeft="5dp"
+                android:text="4"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                style="@style/conteudoTables"
+                android:text="Five"
+                android:textColor="?attr/actionModeSplitBackground"/>
+
+            <TextView
+                style="@style/conteudoTables"
+                android:layout_marginLeft="5dp"
+                android:text="5" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                style="@style/conteudoTables"
+                android:text="Six"
+                android:textColor="@android:color/holo_blue_bright" />
+
+            <TextView
+                style="@style/conteudoTables"
+                android:layout_marginLeft="5dp"
+                android:text="6" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:text="Seven"
+                android:textColor="@android:color/holo_green_light" />
+
+            <TextView
+                style="@style/conteudoTables"
+                android:layout_marginLeft="5dp"
+                android:text="7"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                style="@style/conteudoTables"
+                android:text="Eight"
+                android:textColor="@android:color/holo_orange_light"/>
+
+            <TextView
+                style="@style/conteudoTables"
+                android:layout_marginLeft="5dp"
+                android:text="8"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                style="@style/conteudoTables"
+                android:text="Nine"
+                android:textColor="@android:color/holo_purple"/>
+
+            <TextView
+                style="@style/conteudoTables"
+                android:layout_marginLeft="5dp"
+                android:text="9"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                style="@style/conteudoTables"
+                android:text="Ten"
+                android:textColor="?android:attr/colorMultiSelectHighlight" />
+
+            <TextView
+                style="@style/conteudoTables"
+                android:layout_marginLeft="5dp"
+                android:text="10" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        style="@style/botaoPlayAudio"
+        android:background="@drawable/borderone"
+        android:text="Leia o texto e ouça"
+        android:onClick="playNumbers1to10"/>
+
+    <TextView
+        style="@style/textoExplicacao"
+        android:layout_marginTop="20dp"
+        android:text="Vejamos, primeiro, os números de 1 a 10, que são os únicos que não seguem um padrão." />
+
+    <TableLayout
+        style="@style/tableLayout">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                style="@style/conteudoTables"
+                android:text="Eleven"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <TextView
+                style="@style/conteudoTables"
+                android:layout_marginLeft="5dp"
+                android:text="11"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                style="@style/conteudoTables"
+                android:text="Twelve"
+                android:textColor="@android:color/holo_blue_dark"/>
+
+            <TextView
+                style="@style/conteudoTables"
+                android:layout_marginLeft="5dp"
+                android:text="20" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                style="@style/conteudoTables"
+                android:text="Thirteen"
+                android:textColor="@android:color/holo_orange_dark" />
+
+            <TextView
+                style="@style/conteudoTables"
+                android:layout_marginLeft="5dp"
+                android:text="13"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                style="@style/conteudoTables"
+                android:text="Fourteen"
+                android:textColor="@android:color/holo_green_dark"/>
+
+            <TextView
+                style="@style/conteudoTables"
+                android:layout_marginLeft="5dp"
+                android:text="14" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                style="@style/conteudoTables"
+                android:text="Fifteen"
+                android:textColor="?attr/actionModeSplitBackground" />
+
+            <TextView
+                style="@style/conteudoTables"
+                android:layout_marginLeft="5dp"
+                android:text="15" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                style="@style/conteudoTables"
+                android:text="Sixteen"
+                android:textColor="@android:color/holo_blue_bright"/>
+
+            <TextView
+                style="@style/conteudoTables"
+                android:layout_marginLeft="5dp"
+                android:text="16" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                style="@style/conteudoTables"
+                android:text="Seventeen"
+                android:textColor="@android:color/holo_green_light" />
+
+            <TextView
+                style="@style/conteudoTables"
+                android:layout_marginLeft="5dp"
+                android:text="17"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                style="@style/conteudoTables"
+                android:text="Eighteen"
+                android:textColor="@android:color/holo_orange_light"/>
+
+            <TextView
+                style="@style/conteudoTables"
+                android:layout_marginLeft="5dp"
+                android:text="18" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                style="@style/conteudoTables"
+                android:text="Nineteen"
+                android:textColor="@android:color/holo_purple"/>
+
+            <TextView
+                style="@style/conteudoTables"
+                android:layout_marginLeft="5dp"
+                android:text="19"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        style="@style/botaoPlayAudio"
+        android:background="@drawable/bordertwo"
+        android:text="Leia o texto e ouça"
+        android:onClick="playNumbers11to19"/>
+
+    <TextView
+        style="@style/textoExplicacao"
+        android:layout_marginTop="20dp"
+        android:text="Curiosidade: é por isso que os adolescentes, em inglês, são chamados de teenagers ou teens.  Passemos agora para as dezenas que, com exceção do 10, terminam em –ty."
+     />
+
+    <TableLayout
+        style="@style/tableLayout">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                style="@style/conteudoTables"
+                android:text="ten"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <TextView
+                style="@style/conteudoTables"
+                android:layout_marginLeft="5dp"
+                android:text="10" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                style="@style/conteudoTables"
+                android:text="Twenty"
+                android:textColor="@android:color/holo_blue_dark"/>
+
+            <TextView
+                style="@style/conteudoTables"
+                android:layout_marginLeft="5dp"
+                android:text="20"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                style="@style/conteudoTables"
+                android:text="Thirty"
+                android:textColor="@android:color/holo_orange_dark"/>
+
+            <TextView
+                style="@style/conteudoTables"
+                android:layout_marginLeft="5dp"
+                android:text="30"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                style="@style/conteudoTables"
+                android:text="Forty"
+                android:textColor="@android:color/holo_green_dark" />
+
+            <TextView
+                style="@style/conteudoTables"
+                android:layout_marginLeft="5dp"
+                android:text="40"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="@style/conteudoTables"
+                android:text="Fifty"
+                android:textColor="?attr/actionModeSplitBackground" />
+
+            <TextView
+                style="@style/conteudoTables"
+                android:layout_marginLeft="5dp"
+                android:text="50" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                style="@style/conteudoTables"
+                android:text="Sixty"
+                android:textColor="@android:color/holo_blue_bright" />
+
+            <TextView
+                style="@style/conteudoTables"
+                android:layout_marginLeft="5dp"
+                android:text="60"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                style="@style/conteudoTables"
+                android:text="Seventy"
+                android:textColor="@android:color/holo_green_light" />
+
+            <TextView
+                style="@style/conteudoTables"
+                android:layout_marginLeft="5dp"
+                android:text="70"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                style="@style/conteudoTables"
+                android:text="Eighty"
+                android:textColor="@android:color/holo_orange_light" />
+
+            <TextView
+                style="@style/conteudoTables"
+                android:layout_marginLeft="5dp"
+                android:text="80"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                style="@style/conteudoTables"
+                android:text="Ninety"
+                android:textColor="@android:color/holo_purple" />
+
+            <TextView
+                style="@style/conteudoTables"
+                android:layout_marginLeft="5dp"
+                android:text="90" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        style="@style/botaoPlayAudio"
+        android:background="@drawable/borderthree"
+        android:text="Leia o texto e ouça"
+        android:onClick="playNumbersDezenas"/>
+</LinearLayout>
+
+</ScrollView>

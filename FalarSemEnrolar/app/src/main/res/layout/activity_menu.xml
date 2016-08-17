@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    tools:context="br.com.falarsemenrolar.falarsemenrolar.MenuActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/balaobasic"
+            android:id="@+id/imageView2" />
+
+        <Button
+            style="@style/botoesMenu"
+            android:text="LESSON ONE: GREETINGS\nSaudações"
+            android:background="@drawable/borderone"
+            android:onClick="loadLearnGreetings"
+            android:drawableLeft="@drawable/iconegreetings" />
+
+        <Button
+            style="@style/botoesMenu"
+            android:text="LESSON TWO: Numbers\nNumeros"
+            android:background="@drawable/bordertwo"
+            android:onClick="loadLearnNumbers"
+            android:drawableLeft="@drawable/iconenumbers" />
+
+
+        <Button
+            style="@style/botoesMenu"
+            android:text="LESSON THREE: To Be Verb\nSer ou Estar"
+            android:onClick="loadLearnToBeVerb"
+            android:background="@drawable/borderthree"
+            android:drawableLeft="@drawable/iconetobeverb" />
+
+        <Button
+            style="@style/botoesMenu"
+            android:text="LESSON FOUR: Objects\nObjetos"
+            android:onClick="loadLearnObjects"
+            android:background="@drawable/borderfour"
+            android:drawableLeft="@drawable/iconeobjects" />
+
+
+        <ImageView
+            android:layout_marginTop="25dp"
+            android:onClick="loadInfo"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:background="@drawable/info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</ScrollView>

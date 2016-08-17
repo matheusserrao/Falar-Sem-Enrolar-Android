@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    tools:context="br.com.falarsemenrolar.falarsemenrolar.activitiesLearn.ToBeVerbActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:srcCompat="@drawable/tobe"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true" />
+
+    <TextView
+        style="@style/textoExplicacao"
+        android:text="Verbo é a classe de palavras que nomeia, descreve um estado ou uma ação.\nComeçaremos a estudar os verbos a partir do Verbo to be, que é um dos verbos mais básicos em língua inglesa." />
+
+    <TextView
+        style="@style/subtitulos"
+        android:text="Verbo to be - Verb to be " />
+
+    <TextView
+        style="@style/conteudoTables"
+
+        android:text="O verbo to be significa ser e estar em português e, além desses dois significados, este verbo é muito usado no sentido de ficar (tornar-se). Observe os usos e as formas deste verbo:\n
+        - USOS:\n
+        Usa-se o verbo to be:"
+     />
+
+    <TextView
+        style="@style/subtitulos"
+        android:text="1. Para identificar e descrever pessoas e objetos:" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:text="Richard is my friend. (Ricardo é meu amigo.)\n I am Italian. (Eu sou Italiano.)\n I'm from Spain. (Eu sou da Espanha.)\n It is a computer. (Isto é um computador.)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textSize="14dp"
+            android:textColor="@android:color/black"
+            android:textStyle="normal" />
+
+        <Button
+            style="@style/botaoPlayAudio"
+            android:text="LEIA O TEXTO E OUÇA"
+            android:background="@drawable/borderone"
+            android:onClick="playToBeVerb1" />
+
+    <TextView
+        style="@style/subtitulos"
+        android:text="2. Nas expressões de tempo, idade e lugar:" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:text="It is sunny today. (Hoje o dia está ensolarado.)\nI am twenty years old. (Tenho vinte anos.)\nRachel is four years older than me.(Raquel é quatro anos mais velha do que eu.)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textSize="14dp"
+            android:textColor="@android:color/black"
+            android:textStyle="normal"
+            android:layout_weight="0.25" />
+
+        <Button
+            style="@style/botaoPlayAudio"
+            android:text="LEIA O TEXTO E OUÇA"
+            android:background="@drawable/bordertwo"
+            android:onClick="playToBeVerb2"/>
+
+    <TextView
+        style="@style/subtitulos"
+        android:text="FORMAS"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:background="@drawable/imgtabletobe1"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+
+</ScrollView>

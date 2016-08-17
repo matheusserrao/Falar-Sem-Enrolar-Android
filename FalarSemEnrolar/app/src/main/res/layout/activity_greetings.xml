@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    tools:context="br.com.falarsemenrolar.falarsemenrolar.activitiesLearn.GreetingsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/greetings"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            style="@style/textoExplicacao"
+            android:text="Começamos a nossa caminhada com greetings - saudações,que usamos de acordo com a situação em que estamos. Como por exemplo: pela manhã, nós cumprimentos outras pessoas dizendo Good Morning - bom dia, pela tarde, Good Afternoon - boa tarde e assim por diante."
+        />
+
+        <TextView
+            style="@style/subtitulos"
+            android:text="Cumprimentos" />
+
+        <TableLayout
+            style="@style/tableLayout">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    style="@style/conteudoTables"
+                    android:text="Hello!"
+                    android:textColor="@android:color/holo_red_dark"/>
+
+                <TextView
+                    style="@style/conteudoTables"
+                    android:layout_marginLeft="5dp"
+                    android:text="Olá"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    style="@style/conteudoTables"
+                    android:text="Hi!"
+                    android:textColor="@android:color/holo_blue_dark" />
+
+                <TextView
+                    style="@style/conteudoTables"
+                    android:layout_marginLeft="5dp"
+                    android:text="Oi"
+                    android:textColor="@android:color/black"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    style="@style/conteudoTables"
+                    android:text="Goodbye/Bye!"
+                    android:textColor="@android:color/holo_orange_dark" />
+
+                <TextView
+                    style="@style/conteudoTables"
+                    android:layout_marginLeft="5dp"
+                    android:text="Tchau"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    style="@style/conteudoTables"
+                    android:text="Good Morning!"
+                    android:textColor="@android:color/holo_green_dark" />
+
+                <TextView
+                    style="@style/conteudoTables"
+                    android:layout_marginLeft="5dp"
+                    android:text="Bom dia"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    style="@style/conteudoTables"
+                    android:text="Good Afternoon!"
+                    android:textColor="?attr/actionModeSplitBackground" />
+
+                <TextView
+                    style="@style/conteudoTables"
+                    android:layout_marginLeft="5dp"
+                    android:text="Boa tarde" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    style="@style/conteudoTables"
+                    android:text="Good Evening!"
+                    android:textColor="@android:color/holo_blue_bright"/>
+
+                <TextView
+                    style="@style/conteudoTables"
+                    android:layout_marginLeft="5dp"
+                    android:text="Boa noite" />
+
+            </TableRow>
+
+        </TableLayout>
+
+        <Button
+            style="@style/botaoPlayAudio"
+            android:background="@drawable/borderone"
+            android:text="Leia o texto e ouça"
+            android:onClick="playerGreetings" />
+
+        <TextView
+            style="@style/subtitulos"
+            android:text="Cumprimentos com perguntas"/>
+
+        <TableLayout
+            style="@style/tableLayout">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    style="@style/conteudoTables"
+                    android:text="How are you?"
+                    android:textColor="@android:color/holo_red_dark"/>
+
+                <TextView
+                    style="@style/conteudoTables"
+                    android:layout_marginLeft="5dp"
+                    android:text="Como vai você?" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    style="@style/conteudoTables"
+                    android:text="What are you doing?"
+                    android:textColor="@android:color/holo_blue_dark"/>
+
+                <TextView
+                    style="@style/conteudoTables"
+                    android:layout_marginLeft="5dp"
+                    android:text="O que você está fazendo?" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    style="@style/conteudoTables"
+                    android:text="How is your day?"
+                    android:textColor="@android:color/holo_orange_dark"/>
+
+                <TextView
+                    style="@style/conteudoTables"
+                    android:layout_marginLeft="5dp"
+                    android:text="Como está seu dia?" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    style="@style/conteudoTables"
+                    android:text="How are you feeling today? "
+                    android:textColor="@android:color/holo_green_dark" />
+
+                <TextView
+                    style="@style/conteudoTables"
+                    android:layout_marginLeft="5dp"
+                    android:text="Como você está se sentindo hoje?"/>
+            </TableRow>
+
+        </TableLayout>
+
+        <Button
+            style="@style/botaoPlayAudio"
+            android:background="@drawable/bordertwo"
+            android:text="Leia o texto e ouça"
+            android:onClick="playerGreetingsPerguntas" />
+
+        <!-- respostas -->
+
+        <TextView
+            style="@style/subtitulos"
+            android:text="Respostas" />
+
+        <TableLayout
+            style="@style/tableLayout">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    style="@style/conteudoTables"
+                    android:text="I'm fine!"
+                    android:textColor="@android:color/holo_red_dark"/>
+
+                <TextView
+                    style="@style/conteudoTables"
+                    android:layout_marginLeft="5dp"
+                    android:text="Eu estou bem!"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    style="@style/conteudoTables"
+                    android:text="I'm wonderful! "
+                    android:textColor="@android:color/holo_blue_dark" />
+
+                <TextView
+                    style="@style/conteudoTables"
+                    android:layout_marginLeft="5dp"
+                    android:text="Eu estou maravilhoso(a)!"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    style="@style/conteudoTables"
+                    android:text="I'm pretty good!"
+                    android:textColor="@android:color/holo_orange_dark" />
+
+                <TextView
+                    style="@style/conteudoTables"
+                    android:layout_marginLeft="5dp"
+                    android:text="Eu estou muito bem!" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    style="@style/conteudoTables"
+                    android:text="I'm tired! "
+                    android:textColor="@android:color/holo_green_dark" />
+
+                <TextView
+                    style="@style/conteudoTables"
+                    android:layout_marginLeft="5dp"
+                    android:text="Eu estou cansado(a)!" />
+            </TableRow>
+
+        </TableLayout>
+
+        <Button
+            style="@style/botaoPlayAudio"
+            android:background="@drawable/borderthree"
+            android:text="Leia o texto e ouça"
+            android:onClick="playerRespostas"/>
+    </LinearLayout>
+
+</ScrollView>
