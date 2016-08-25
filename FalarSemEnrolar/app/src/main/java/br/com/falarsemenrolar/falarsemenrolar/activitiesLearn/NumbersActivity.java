@@ -15,8 +15,8 @@ public class NumbersActivity extends AppCompatActivity {
         setContentView(R.layout.activity_numbers);
     }
 
-    public void playNumbers1to10(View view){    AudioPlay.play(this, R.raw.numeros1e10); }
-    public void playNumbers11to19(View view){ AudioPlay.play(this, R.raw.numerosentre11e19);}
-    public void playNumbersDezenas(View view){ AudioPlay.play(this,R.raw.numerosdezenas);}
+    public void playNumbers1to10(View view){    AudioPlay.getInstance().play(this, R.raw.numeros1e10); }
+    public void playNumbers11to19(View view){ AudioPlay.getInstance().play(this, R.raw.numerosentre11e19);}
+    public void playNumbersDezenas(View view){ AudioPlay.getInstance().play(this,R.raw.numerosdezenas);}
 
 }

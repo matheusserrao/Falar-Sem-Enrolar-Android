@@ -16,11 +16,11 @@ public class ToBeVerbActivity extends AppCompatActivity {
     }
 
     public void playToBeVerb1(View view) {
-        AudioPlay.play(this, R.raw.verbtobe1);
+        AudioPlay.getInstance().play(this, R.raw.verbtobe1);
     }
 
     public void playToBeVerb2(View view) {
-        AudioPlay.play(this, R.raw.verbtobe2);
+        AudioPlay.getInstance().play(this, R.raw.verbtobe2);
     }
 
 }

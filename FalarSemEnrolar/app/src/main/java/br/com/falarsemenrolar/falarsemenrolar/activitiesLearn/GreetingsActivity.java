@@ -16,13 +16,13 @@ public class GreetingsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_greetings);
     }
 
-    public void playerGreetings(View view) { AudioPlay.play(this, R.raw.greetings);}
+    public void playerGreetings(View view) { AudioPlay.getInstance().play(this, R.raw.greetings);}
 
-    public void playerGreetingsPerguntas(View view) { AudioPlay.play(this, R.raw.greetingsperguntas);}
+    public void playerGreetingsPerguntas(View view) { AudioPlay.getInstance().play(this, R.raw.greetingsperguntas);}
 
     public void playerRespostas(View view)
     {
-        AudioPlay.play(this, R.raw.greetingsrespostas);
+        AudioPlay.getInstance().play(this, R.raw.greetingsrespostas);
     }
 
 

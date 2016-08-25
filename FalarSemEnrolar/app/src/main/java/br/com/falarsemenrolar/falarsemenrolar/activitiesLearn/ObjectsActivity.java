@@ -16,35 +16,35 @@ public class ObjectsActivity extends AppCompatActivity {
     }
 
     public void playBackPack(View view) {
-        AudioPlay.play(this, R.raw.bagpack);
+        AudioPlay.getInstance().play(this, R.raw.bagpack);
     }
 
     public void playEraser(View view) {
-        AudioPlay.play(this, R.raw.eraser);
+        AudioPlay.getInstance().play(this, R.raw.eraser);
     }
 
     public void playBook(View view) {
-        AudioPlay.play(this, R.raw.book);
+        AudioPlay.getInstance().play(this, R.raw.book);
     }
 
     public void playChar(View view) {
-        AudioPlay.play(this, R.raw.chair);
+        AudioPlay.getInstance().play(this, R.raw.chair);
     }
 
     public void playPencil(View view) {
-        AudioPlay.play(this, R.raw.pencil);
+        AudioPlay.getInstance().play(this, R.raw.pencil);
     }
 
     public void playPen(View view) {
-        AudioPlay.play(this, R.raw.pen);
+        AudioPlay.getInstance().play(this, R.raw.pen);
     }
 
     public void playComputer(View view) {
-        AudioPlay.play(this, R.raw.computer);
+        AudioPlay.getInstance().play(this, R.raw.computer);
     }
 
     public void playerRuler(View view) {
-        AudioPlay.play(this, R.raw.ruler);
+        AudioPlay.getInstance().play(this, R.raw.ruler);
     }
 
 
