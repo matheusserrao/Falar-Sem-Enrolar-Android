@@ -5,6 +5,13 @@
 
 Link: https://goo.gl/tunQux
 
+# IMAGENS DO APLICATIVO
+
+### Tela de cumprimentos
+
+![cumprimentos](https://github.com/bluurprogrammer/Falar-Sem-Enrolar-Android/FOTOS_DO_APLICATIVO/tela_cumprimentos.png)
+
+
 
 ## Projeto final desenvolvido no curso GDG/MANAUS
 
