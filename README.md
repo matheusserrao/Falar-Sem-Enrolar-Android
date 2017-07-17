@@ -9,7 +9,7 @@ Link: https://goo.gl/tunQux
 
 ### Tela de cumprimentos
 
-![cumprimentos](https://github.com/bluurprogrammer/Falar-Sem-Enrolar-Android/FOTOS_DO_APLICATIVO/tela_cumprimentos.png)
+![cumprimentos](https://raw.githubusercontent.com/BluurProgrammer/Falar-Sem-Enrolar-Android/master/FOTOS_DO_APLICATIVO/tela_cumprimentos.png)
 
 
 
