@@ -2,5 +2,6 @@
 Link na Google play: https://goo.gl/tunQux
 
 
-# FALAR-SEM-ENROLAR--PROJETO-ANDROID
-Projeto para aprendizado da lingua inglesa.
+# Projeto final desenvolvido no curso GDG/MANAUS
+
+O aplicativo tem como foco o aprendizado na lingua inglesa.
